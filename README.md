@@ -5,7 +5,7 @@ The project also includes KMeans clustering on linguistic features to analyse an
 
 ## Overview
 
-The idea is straightforward: take structured pet attributes (species, colour, age, gender, size) along with their adoption descriptions, and train a next-token-prediction Transformer that can learn to produce similar descriptions. On top of that, linguistic features extracted from the text (tone, emotion, formality, etc.) are clustered with KMeans to find natural groupings in the data — these clusters could later be fed back into the model as conditioning signals.
+The idea is straightforward: take structured pet attributes (species, colour, age, gender, size) along with their adoption descriptions, and train a next-token-prediction Transformer that can learn to produce similar descriptions. On top of that, linguistic features extracted from the text (tone, emotion, formality, etc.) are clustered with KMeans to find natural groupings in the data. These clusters could later be fed back into the model as conditioning signals.
 
 ## Project Structure
 
